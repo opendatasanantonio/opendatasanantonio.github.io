@@ -10,7 +10,7 @@ body {
 
 .row {
     width: 100%;
-    background-color: #fff;
+    /*background-color: #fff;*/
     margin: 0;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 .first_c {
-  background-color: #fff;
+  background-color: #31383C;
 }
 
 
