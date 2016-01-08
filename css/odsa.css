@@ -1,0 +1,241 @@
+html {
+    box-sizing: border-box; 
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+}
+
+.title {
+  max-width: 1200px;
+}
+
+.container {
+    margin: 0 0 2% 0;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #FFFFFF;
+    padding: 0;
+}
+
+.row {
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+}
+
+.photo1 img {
+  width: 33%;
+  /*margin: auto .5% auto auto;*/
+  float: left;
+}
+
+.photo2 img {
+  width: 17.9%;
+  /*margin: .5%;*/
+  float: left;
+}
+
+.front-footer {
+  width: 100%;
+  margin: 5%;
+}
+
+.photo3 img {
+  width: 6%;
+  margin: 1%;
+  float: left;
+}
+
+.photo4 img {
+  width: 16.5%;
+  /*margin: .5%;*/
+  float: left;
+}
+
+.photo5 img {
+  width: 16.3%;
+  /*margin: .5%;*/
+  float: left;
+}
+
+.photo6 img {
+  width: 16.25%;
+  /*margin: .5%;*/
+  float: left;
+}
+.photo7 img {
+  width: 30%;
+  margin: 2% 2% 1% 0;
+  float: left;
+}
+
+.marion {
+  margin: 1% 0 1% 0;
+}
+
+.second_container_left {
+  float: left;
+  /*width: 48%;*/
+  margin: 0%;
+}
+
+.second_container_right {
+  float: right;
+}
+
+.photo8 img {
+  width: 100%;
+  margin: 2% 2% 1% 0;
+  float: left;
+}
+.photo9 img {
+  width: 24%;
+  margin: 1% 2% 2% 0;
+  float: left;
+}
+.photo10 img {
+  width: 23%;
+  margin: 1% 2% 2% 0;
+  float: left;
+}
+.photo11 img {
+  width: 49%;
+  margin: 1% 0 2% 0;
+  float: left;
+}
+
+/*  The core CSS3 for the parallax scrolling effect.  */
+
+.parallax {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 1px;
+  -webkit-perspective: 1px;
+}
+
+.parallax_layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax_layer_base {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+.parallax_layer_back {
+  transform: translateZ(-1px);
+  -webkit-transform: translateZ(-1px);
+}
+
+/*  The CSS3 for depth correction.  */
+
+.parallax_layer_back { transform: translateZ(-1px) scale(2); }
+
+.parallax_layer_deep { transform: translateZ(-2px) scale(3); }
+
+
+.navbar-default {
+  background-image: -webkit-linear-gradient(top, #fff 0%, #f8f8f8 100%);
+  background-image:      -o-linear-gradient(top, #fff 0%, #f8f8f8 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f8f8f8));
+  background-image:         linear-gradient(to bottom, #fff 0%, #f8f8f8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a {
+  background-image: -webkit-linear-gradient(top, #dbdbdb 0%, #e2e2e2 100%);
+  background-image:      -o-linear-gradient(top, #dbdbdb 0%, #e2e2e2 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dbdbdb), to(#e2e2e2));
+  background-image:         linear-gradient(to bottom, #dbdbdb 0%, #e2e2e2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdbdbdb', endColorstr='#ffe2e2e2', GradientType=0);
+  background-repeat: repeat-x;
+  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);
+}
+.navbar-brand,
+.navbar-nav > li > a {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
+}
+.navbar-inverse {
+  background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222 100%);
+  background-image:      -o-linear-gradient(top, #3c3c3c 0%, #222 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#222));
+  background-image:         linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .active > a {
+  background-image: -webkit-linear-gradient(top, #080808 0%, #0f0f0f 100%);
+  background-image:      -o-linear-gradient(top, #080808 0%, #0f0f0f 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#080808), to(#0f0f0f));
+  background-image:         linear-gradient(to bottom, #080808 0%, #0f0f0f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff080808', endColorstr='#ff0f0f0f', GradientType=0);
+  background-repeat: repeat-x;
+  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);
+          box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+}
+.navbar-static-top,
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  border-radius: 0;
+}
+@media (max-width: 767px) {
+  .navbar .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%);
+    background-image:      -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#2e6da4));
+    background-image:         linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0);
+    background-repeat: repeat-x;
+  }
+}
+
+medium.becoming {
+  color: #08105F;
+  width: 100%;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.navbar-brand {
+  border: 0%;
+}
+
+
+
+
+
