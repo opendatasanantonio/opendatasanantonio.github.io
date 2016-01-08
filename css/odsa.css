@@ -23,55 +23,16 @@ body {
 .column {
 }
 
-.photo1 img {
-  width: 33%;
-  /*margin: auto .5% auto auto;*/
-  float: left;
+.first_c {
+  background-color: #fff;
 }
 
-.photo2 img {
-  width: 17.9%;
-  /*margin: .5%;*/
-  float: left;
-}
 
 .front-footer {
   width: 100%;
   margin: 5%;
 }
 
-.photo3 img {
-  width: 6%;
-  margin: 1%;
-  float: left;
-}
-
-.photo4 img {
-  width: 16.5%;
-  /*margin: .5%;*/
-  float: left;
-}
-
-.photo5 img {
-  width: 16.3%;
-  /*margin: .5%;*/
-  float: left;
-}
-
-.photo6 img {
-  width: 16.25%;
-  /*margin: .5%;*/
-  float: left;
-}
-.photo7 img {
-  width: 30%;
-  margin: 2% 2% 1% 0;
-  float: left;
-}
-
-.marion {
-  margin: 1% 0 1% 0;
-}
 
 .second_container_left {
   float: left;
@@ -81,27 +42,6 @@ body {
 
 .second_container_right {
   float: right;
-}
-
-.photo8 img {
-  width: 100%;
-  margin: 2% 2% 1% 0;
-  float: left;
-}
-.photo9 img {
-  width: 24%;
-  margin: 1% 2% 2% 0;
-  float: left;
-}
-.photo10 img {
-  width: 23%;
-  margin: 1% 2% 2% 0;
-  float: left;
-}
-.photo11 img {
-  width: 49%;
-  margin: 1% 0 2% 0;
-  float: left;
 }
 
 /*  The core CSS3 for the parallax scrolling effect.  */
