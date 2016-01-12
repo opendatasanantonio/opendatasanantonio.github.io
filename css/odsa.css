@@ -26,10 +26,10 @@ body {
   width: 100%;
 }
 
-.img {
-  width: 100%;
-  padding: 2%;
+div.carousel-inner img{
+    margin: 0 auto;
 }
+
 .icon {
   display: inline;
 }
