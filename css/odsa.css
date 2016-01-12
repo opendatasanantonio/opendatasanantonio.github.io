@@ -27,6 +27,10 @@ div.carousel-inner img{
     margin: 0 auto;
 }
 
+.topics {
+  width: 100%;
+}
+
 .icon {
   display: inline;
   float: left;
