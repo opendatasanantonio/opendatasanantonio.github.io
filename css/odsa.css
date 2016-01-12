@@ -32,6 +32,10 @@ div.carousel-inner img{
   float: left;
 }
 
+nav.icon img{
+    margin: 0 auto;
+}
+
 /*.front-footer {
   width: 100%;
   margin: 5%;
