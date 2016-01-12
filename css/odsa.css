@@ -29,6 +29,7 @@ div.carousel-inner img{
 
 .icon {
   display: inline;
+  float: left;
 }
 
 /*.front-footer {
