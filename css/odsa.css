@@ -20,7 +20,8 @@ body {
     clear: both;
 }
 
-.column {
+.intro {
+  height: 100%;
 }
 
 .first_c {
