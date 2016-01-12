@@ -28,7 +28,7 @@ div.carousel-inner img{
 }
 
 .icon {
-  display: inline-table;
+  display: inline;
   float: left;
   margin: 2%;
 }
