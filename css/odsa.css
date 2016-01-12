@@ -20,14 +20,11 @@ body {
     clear: both;
 }
 
-.intro {
-  height: 100%;
-}
 
-.first_c {
+/*.first_c {
   background-color: #31383C;
   width: 100%;
-}
+}*/
 .icon {
   display: inline;
 }
@@ -37,16 +34,16 @@ body {
   margin: 5%;
 }
 
-
+/*
 .second_container_left {
   float: left;
-  /*width: 48%;*/
+  /*width: 48%;
   margin: 0%;
 }
 
 .second_container_right {
   float: right;
-}
+} */
 
 /*  The core CSS3 for the parallax scrolling effect.  */
 
