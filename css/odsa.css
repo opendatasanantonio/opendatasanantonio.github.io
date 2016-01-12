@@ -28,8 +28,9 @@ div.carousel-inner img{
 }
 
 .icon {
+  display: inline-table;
   float: left;
-  margin: 0 auto;
+  margin: 2%;
 }
 
 nav.icon a img div{
