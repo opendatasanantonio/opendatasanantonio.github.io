@@ -25,6 +25,11 @@ body {
   background-color: #31383C;
   width: 100%;
 }
+
+.img {
+  width: 100%;
+  padding: 2%;
+}
 .icon {
   display: inline;
 }
